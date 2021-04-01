@@ -1,18 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Gradinar - Najstariji salon keramike u regionu`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Gradinar - Salon keramike`,
+    description: `Najstariji salon keramike u regionu. Veliki izbor plocica i materijala za unutrasnji dekor. Kupatila, kuhinje, terase, stepenista. Izrada namestaja od paleta.`,
     author: `@dropsound`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `robotoregular`,
+          'robotomedium',
+          'robotobold',
+          'robotoblack',
+        ],
+        display: 'swap'
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
