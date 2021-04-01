@@ -1,12 +1,47 @@
 html {
-    font-family: $font-regular;
+    font-family: $font-regular!important;
+    font-size: 16px!important;
 }
 body {
     margin: 0 0 0 0;
 }
 
+/*-----Toolbar-----*/ 
+.toolbar {
+    .uk-navbar {
+        background-color: $grad-dark;
+        padding: 1rem;
+            li {
+                a {
+                    font-size: 0.75rem;
+                    color: $grad-light;
+                    line-height: 0.75rem;
+                    min-height: auto;
+                    text-transform: none;
+                    display: inline;
+                    &:hover {
+                        color: $grad-light-hover;
+                    }
+                    span {
+                        margin-right: 0.35rem;
+                    }
+                }
+                .wtime {
+                    font-size: 0.75rem;
+                    color: $grad-light;
+                    line-height: 0.75rem;
+                    min-height: auto;
+                    text-transform: none;
+                    display: inline;
+                    margin-left: 0.35rem;
+                }
+            }
+    }
+}
+
+/*-----Header-----*/ 
 header {
-    background-color: $grad-light;
+    background-color: $white;
 }
 
 a {
