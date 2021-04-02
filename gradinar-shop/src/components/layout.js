@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
     <>
     <Toolbar></Toolbar>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
+      <div class="uk-container">
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
