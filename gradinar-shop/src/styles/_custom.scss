@@ -41,9 +41,27 @@ body {
 
 /*-----Header-----*/ 
 header {
-    background-color: $white;
+    background-color: $grey;
+    height: 80px;
+    .nav-ilu {
+        opacity: 0.5!important;
+    }
 }
 
 a {
     text-decoration: none;
+}
+.brands-list {
+    .brands-logo {
+        margin-top: 1rem!important;
+        position: relative!important;
+        filter: grayscale(100%);
+        &:first-of-type {
+            margin-top: 0!important;
+        }
+        &:hover {
+            filter: none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    }
 }
