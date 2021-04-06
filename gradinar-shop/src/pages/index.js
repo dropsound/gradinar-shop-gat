@@ -5,11 +5,9 @@ import Icons from 'uikit/dist/js/uikit-icons'
 
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Toolbar from "../components/toolbar"
 
 const IndexPage = () => (
   <Layout>
