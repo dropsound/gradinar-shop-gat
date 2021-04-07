@@ -69,8 +69,32 @@ a {
     }
 }
 
-/*-----Footer-----*/ 
-
+/*-----Subscribe-----*/ 
 .subscribe {
     margin-top: 10rem;
+    button {
+        margin-top: 1rem!important;
+    }
 }
+
+/*-----Footer-----*/ 
+footer {
+    button {
+        background-color: $btn-sec!important;
+        border: 1px solid $btn-sec-border!important;
+        color: $btn-sec-col!important;
+        margin-top: 1rem!important;
+        &:hover {
+            border: 1px solid $btn-sec-hover!important;
+            color: $btn-sec-hover!important;
+        }
+        &:focus {
+            border: 1px solid $btn-sec-hover!important;
+            color: $btn-sec-hover!important;
+        }
+        &:active {
+            background-color: $btn-sec-hover!important;
+        }
+    }
+}
+

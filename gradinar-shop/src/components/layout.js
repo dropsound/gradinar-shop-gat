@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div class="uk-container">
         <main>{children}</main>
-        
       </div>
       <Subscribe></Subscribe>
       <Footer></Footer>
