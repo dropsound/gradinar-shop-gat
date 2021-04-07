@@ -32,19 +32,20 @@ export default function footer () {
                     <nav class="uk-grid uk-grid-small uk-child-width-1-2" uk-grid>
                     <div>
                         <ul class="uk-nav uk-nav-default">
-                        <li><a href="catalog.html">Catalog</a></li>
-                        <li><a href="brands.html">Brands</a></li>
-                        <li><a href="delivery.html">Delivery</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Katalog</a></li>
+                        <li><a href="#">Brendovi</a></li>
+                        <li><a href="#">Dostava</a></li>
+                        <li><a href="#">Česta pitanja</a></li>
+                        <li><a href="#">Uslovi plaćanja</a></li>
                         </ul>
                     </div>
                     <div>
                         <ul class="uk-nav uk-nav-default">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="news.html">News</a></li>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Dokumentacija</a></li>
+                        <li><a href="#">Inspiracija/Blog</a></li>
+                        <li><a href="#">Novosti</a></li>
                         </ul>
                     </div>
                     </nav>
@@ -73,6 +74,7 @@ export default function footer () {
                         </div>
                     </label>
                     </form>
+                    <button class="uk-button uk-button-secondary">Prijavite se</button>
                     <div class="uk-margin uk-text-small uk-text-muted">Gradinar&#174; | dropsound&#174; | 2021&#169;</div>
                 </div>
             </div>
