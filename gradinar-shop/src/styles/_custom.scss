@@ -45,6 +45,9 @@ header {
     height: 80px;
     .nav-ilu {
         opacity: 0.5!important;
+        &:hover {
+            opacity: 1!important;
+        }
     }
 }
 
@@ -64,4 +67,10 @@ a {
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
     }
+}
+
+/*-----Footer-----*/ 
+
+footer {
+    margin-top: 10rem;
 }

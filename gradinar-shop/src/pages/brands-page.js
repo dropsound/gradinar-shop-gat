@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,11 +11,12 @@ export default function BrandsPage  () {
     return (
       <Layout>
         <SEO title="Brendovi" />
-        
+        <h1>Brendovi</h1>
         <Brands></Brands>
         
       </Layout>
       )
     
 }
+
   

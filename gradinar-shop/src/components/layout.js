@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Toolbar from "./toolbar"
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
@@ -30,12 +31,9 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div class="uk-container">
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        
       </div>
+      <Footer></Footer>
     </>
   )
 }
